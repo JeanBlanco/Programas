@@ -1,3 +1,4 @@
+
 // inicializar una variable con valor
 var producto = "Monitor de 40 pulgadas";
 console.log(producto);
@@ -17,7 +18,8 @@ console.log(disponible)
 disponible = false;
 console.log(disponible)
 
-// iniciaza multiples variables
+// iniciaza multiples variables  
+    //las variables no pueden comnezar con numeros
 var categoria = 'Categoria', 
     marca = "maraca famosa",
     calificacion = 5;
@@ -25,6 +27,11 @@ var categoria = 'Categoria',
     console.log(marca)
     console.log(calificacion)
 
-    //las varuables no pueden comnezar con numeros
+
+var nombre = 'Madison'
+function imprimirNombre() {
+    console.log(nombre)
+}
+imprimirNombre()
 
 
